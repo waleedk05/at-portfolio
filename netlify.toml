@@ -1,7 +1,4 @@
-[build]
-  command = "npm run build" # Or yarn build or pnpm build
-  publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18" # Or your preferred Node.js version (LTS recommended)
+  NODE_VERSION = "18.20.5"
   CI = "true"
